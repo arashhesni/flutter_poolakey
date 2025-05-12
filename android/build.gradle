@@ -43,13 +43,13 @@ android {
     namespace 'ir.cafebazaar.flutter_poolakey'
     compileSdkVersion 34
 
+    buildFeatures {
+        buildConfig true
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    buildFeatures {
-        buildConfig true
     }
 
     kotlinOptions {
