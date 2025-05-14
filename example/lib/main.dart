@@ -188,7 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
 
     try {
-      PurchaseInfo? response = await FlutterPoolakey.subscribe(productId,
+      await FlutterPoolakey.subscribe(productId,
           payload: payload, dynamicPriceToken: dynamicPriceToken ?? "");
     } catch (e) {
       showSnackBar("subscribeProduct ${e.toString()}");
