@@ -1,4 +1,4 @@
-package com.github.arashhesni.flutter_poolakey
+package ir.cafebazaar.flutter_poolakey
 
 import android.app.Activity
 import androidx.annotation.NonNull
@@ -37,7 +37,7 @@ class FlutterPoolakeyPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
         activityBinding = binding
         channel =
-            MethodChannel(flutterPluginBinding.binaryMessenger, "com.github.arashhesni.flutter_poolakey")
+            MethodChannel(flutterPluginBinding.binaryMessenger, "ir.cafebazaar.flutter_poolakey")
         channel.setMethodCallHandler(this)
     }
 

@@ -20,7 +20,7 @@ plugins {
     id "kotlin-android"
 }
 
-group 'com.github.arashhesni.flutter_poolakey'
+group 'ir.cafebazaar.flutter_poolakey'
 version '2.2.0-1.0.0-alpha01'
 
 allprojects {
@@ -33,7 +33,7 @@ allprojects {
 }
 
 android {
-    namespace 'com.github.arashhesni.flutter_poolakey'
+    namespace 'ir.cafebazaar.flutter_poolakey'
     compileSdkVersion 34
 
     buildFeatures {

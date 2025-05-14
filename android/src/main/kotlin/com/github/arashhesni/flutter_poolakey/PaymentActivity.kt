@@ -1,4 +1,4 @@
-package com.github.arashhesni.flutter_poolakey
+package ir.cafebazaar.flutter_poolakey
 
 import android.app.Activity
 import android.content.Intent
