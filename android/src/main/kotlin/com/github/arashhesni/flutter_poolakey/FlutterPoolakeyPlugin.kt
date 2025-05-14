@@ -1,4 +1,4 @@
-package ir.cafebazaar.flutter_poolakey
+package com.github.arashhesni.flutter_poolakey
 
 import android.app.Activity
 import androidx.annotation.NonNull

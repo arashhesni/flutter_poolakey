@@ -1,4 +1,4 @@
-package ir.cafebazaar.flutter_poolakey
+package com.github.arashhesni.flutter_poolakey
 
 import ir.cafebazaar.poolakey.entity.PurchaseInfo
 import ir.cafebazaar.poolakey.entity.SkuDetails
