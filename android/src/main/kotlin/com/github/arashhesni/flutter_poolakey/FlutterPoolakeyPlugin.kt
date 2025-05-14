@@ -37,7 +37,7 @@ class FlutterPoolakeyPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
         activityBinding = binding
         channel =
-            MethodChannel(flutterPluginBinding.binaryMessenger, "ir.cafebazaar.flutter_poolakey")
+            MethodChannel(flutterPluginBinding.binaryMessenger, "com.github.arashhesni.flutter_poolakey")
         channel.setMethodCallHandler(this)
     }
 
