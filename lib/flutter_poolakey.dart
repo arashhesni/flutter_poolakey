@@ -38,9 +38,14 @@ class FlutterPoolakey {
       {VoidCallback? onSucceed,
       VoidCallback? onFailed,
       VoidCallback? onDisconnected}) async {
-    _registerConnectCallBack(onSucceed, onFailed, onDisconnected);
-    await _channel
-        .invokeMethod('connect', {'in_app_billing_key': inAppBillingKey});
+    try {
+      _registerConnectCallBack(onSucceed, onFailed, onDisconnected);
+      await _channel
+          .invokeMethod('connect', {'in_app_billing_key': inAppBillingKey});
+    } catch (e) {
+      print('FlutterPoolakey connect error: $e');
+      rethrow;
+    }
   }
 
   static void _registerConnectCallBack(VoidCallback? onConnectionSucceed,

@@ -21,3 +21,4 @@ flutter:
       android:
         package: com.github.arashhesni.flutter_poolakey
         pluginClass: FlutterPoolakeyPlugin
+        kotlin: true
